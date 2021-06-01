@@ -609,7 +609,11 @@ background-color: var(--background-color-blue);
 /*      FOOTER      */
 
 
+.footer-article {
+  font-weight: 700;
+  font-size: 20px;
 
+}
 
 
 .footer {
@@ -624,10 +628,8 @@ background-color: var(--background-color-blue);
   margin-bottom: 56px;
 
 }
-.site-page p {
-  margin-bottom: 16px;
-  font-weight: 700;
-}
+
+
 
 .left-side {
   width: 320px;
