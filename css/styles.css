@@ -460,7 +460,7 @@ background-color: var(--background-color-blue);
 
   text-align: center;
   margin: 0;
-  
+
 
 }
 
@@ -624,7 +624,7 @@ background-color: var(--background-color-blue);
   margin-bottom: 56px;
 
 }
-.footer-all-part h3 {
+.site-page p {
   margin-bottom: 16px;
   font-weight: 700;
 }
