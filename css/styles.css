@@ -242,6 +242,7 @@ transition: 0.3s ease opacity;
 .button-phone:active {
   background-color: var(--background-color-blue-active);
   opacity: 0.6;
+  color: var(--text-color-white);
 
 }
 
@@ -750,7 +751,7 @@ font-family: var(--font-family);
 
 .sm_li:not(:last-child){
   margin-bottom: 64px;
-  
+
 }
 
 .info-ul {
