@@ -8,8 +8,7 @@
   --background-color-blue: rgba(0, 186, 252, 1);
   --background-color-blue-active: rgba(0, 186, 252, 1);
   --background-color-dark-active: rgba(25, 25, 25, 1);
-  --font-family:"Open Sans","Arial",sans-serif
-
+  --font-family: "Open Sans","Arial",sans-serif;
 }
 
 html {
@@ -61,9 +60,6 @@ img {
   margin-right: auto;
 }
 
-
-
-
 /*      HEADER     */
 
 .header {
@@ -75,7 +71,6 @@ img {
   z-index: 99;
   width: 100%;
   background-color: #fff;
-
 
 }
 
@@ -91,7 +86,7 @@ img {
   padding: 0;
   width: 58px;
   height: 20px;
-margin-right: auto;
+  margin-right: auto;
 }
 
 .pixer-logo:hover {
@@ -117,7 +112,7 @@ margin-right: auto;
 }
 .header-li {
 
- transition: 0.2s box-shadow ease;
+  transition: 0.2s box-shadow ease;
   background-color: white;
 
 }
@@ -131,11 +126,11 @@ margin-right: auto;
 }
 
 .header-li:hover {
-box-shadow: inset 0 -3px 0 0 black;
+  box-shadow: inset 0 -3px 0 0 black;
 }
 .header-li:active {
   background-color: var(--background-color-dark-active);
-box-shadow: none;
+  box-shadow: none;
   opacity: 0.6;
 
 }
@@ -160,7 +155,7 @@ box-shadow: none;
 }
 
 .xizmatlar-ul {
-  margin-top: 19px;
+  margin-top: 17px;
   padding-left: 0;
   list-style: none;
   display: none;
@@ -189,11 +184,11 @@ box-shadow: none;
 
 .xizmatlar:hover {
 
-background-color: var(--background-color-blue);
+  background-color: var(--background-color-blue);
 
 }
 
-.xizmatlar:hover a{
+.xizmatlar:hover a {
   color: var(--text-color-white);
 }
 .xizmatlar:active {
@@ -214,14 +209,12 @@ background-color: var(--background-color-blue);
   border-radius: 5px;
   color: var(--text-color-white);
   text-decoration: none;
-transition: 0.3s ease opacity;
+  transition: 0.3s ease opacity;
 }
-
 
 .button:hover {
   opacity: 80%;
 }
-
 
 .button:active {
   opacity: 60%;
@@ -241,8 +234,9 @@ transition: 0.3s ease opacity;
 
 .button-phone:active {
   background-color: var(--background-color-blue-active);
-  opacity: 0.6;
-  color: var(--text-color-white);
+
+  border-color: transparent;
+  color: #fff;
 
 }
 
@@ -253,15 +247,7 @@ transition: 0.3s ease opacity;
 
 }
 
-
-
-
 /*        INTRO        */
-
-
-
-
-
 
 .intro {
 
@@ -299,13 +285,7 @@ transition: 0.3s ease opacity;
 
 }
 
-
-
-
-
 /*        XIZMATLAR       */
-
-
 
 .services-top {
   width: 719px;
@@ -333,7 +313,7 @@ transition: 0.3s ease opacity;
 
 .services-ul li {
   width: 320px;
-  height: 260px;
+
   transition: 0.3s ease box-shadow;
 
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
@@ -343,15 +323,30 @@ transition: 0.3s ease opacity;
 
 }
 
-.services-li:hover{
-  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+.services-li a {
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
 
 }
 
+.link-text {
+
+  text-align: center;
+}
+
+.services-li:hover {
+  box-shadow: 0 12px 21px rgba(0, 0, 0, 0.1);
+
+}
 
 .services-li:active {
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 .services-li a {
   text-decoration: none;
@@ -377,8 +372,7 @@ transition: 0.3s ease opacity;
   width: 202.79px;
   height: 130px;
   align-items: center;
-  margin-left: 58px;
-  margin-top: 24px;
+
 }
 
 .bot-li::before {
@@ -390,8 +384,8 @@ transition: 0.3s ease opacity;
   width: 202.79px;
   height: 130px;
   align-items: center;
-  margin-left: 58px;
-  margin-top: 24px;
+  /* margin-left: 58px;
+  margin-top: 24px; */
 }
 
 .website-li::before {
@@ -403,8 +397,8 @@ transition: 0.3s ease opacity;
   width: 202.79px;
   height: 130px;
   align-items: center;
-  margin-left: 58px;
-  margin-top: 24px;
+  /* margin-left: 58px;
+  margin-top: 24px; */
 }
 
 .smm-li::before {
@@ -464,7 +458,6 @@ transition: 0.3s ease opacity;
   text-align: center;
   margin: 0;
 
-
 }
 
 .booking {
@@ -486,13 +479,7 @@ transition: 0.3s ease opacity;
 
 }
 
-
-
-
-
 /*       HOW WE WORK       */
-
-
 
 .how-we-work {
   padding: 56px 134px;
@@ -553,7 +540,6 @@ transition: 0.3s ease opacity;
   background-image: url("../img/img-support.svg");
 }
 
-
 /*     ORDER       */
 
 .order {
@@ -577,7 +563,7 @@ transition: 0.3s ease opacity;
   margin: 0;
   color: var(--text-color-white);
 
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   width: 720px;
   text-align: center;
 
@@ -607,17 +593,13 @@ transition: 0.3s ease opacity;
 
 }
 
-
-
 /*      FOOTER      */
-
 
 .footer-article {
   font-weight: 700;
   font-size: 20px;
 
 }
-
 
 .footer {
   background-color: var(--background-color-dark);
@@ -631,8 +613,6 @@ transition: 0.3s ease opacity;
   margin-bottom: 56px;
 
 }
-
-
 
 .left-side {
   width: 320px;
@@ -723,7 +703,6 @@ transition: 0.3s ease opacity;
 
 }
 
-
 /*    XIZMATLAR     */
 
 .services-h2 {
@@ -732,24 +711,24 @@ transition: 0.3s ease opacity;
   line-height: 31px;
 }
 
-.xizmatlar__services{
+.xizmatlar__services {
 
   margin-bottom: 72px;
 
 }
 
-.sm_ul{
+.sm_ul {
   padding-left: 0;
   list-style: none;
-margin: 0;
+  margin: 0;
   padding-top: 80px;
   padding-bottom: 80px;
-background-color: #F4F4F4;
-font-family: var(--font-family);
+  background-color: #F4F4F4;
+  font-family: var(--font-family);
 
 }
 
-.sm_li:not(:last-child){
+.sm_li:not(:last-child) {
   margin-bottom: 64px;
 
 }
@@ -760,7 +739,7 @@ font-family: var(--font-family);
 
 }
 
-.info-li a{
+.info-li a {
   text-decoration: none;
   color: var(--text-color-black);
   font-family: var(--font-family);
@@ -772,7 +751,7 @@ font-family: var(--font-family);
 
 }
 
-.info-li::before{
+.info-li::before {
   content: "";
   display: inline-block;
   border: none;
@@ -783,18 +762,16 @@ font-family: var(--font-family);
   margin-right: 8px;
 }
 
-
 .sm_li {
 
   width: 802px;
 
-background-color: #fff;
-margin-right: auto;
-margin-left: auto;
-box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
-border-radius: 5px;
-padding-left: 272px;
-
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding-left: 272px;
 
 }
 
@@ -812,48 +789,41 @@ padding-left: 272px;
   font-weight: 700;
   padding-top: 32px;
 
-
 }
 
 .sm-p {
   font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
 
 }
 
-.xizmatlar__link{
-
+.xizmatlar__link {
 }
-
 
 .site-bottom {
 
   padding-top: 12px;
-padding-bottom: 32px;
+  padding-bottom: 32px;
 
 }
 
-
 .xizmatlar__bot {
-
 
   background-image: url("../img/bot-illustration.svg");
   background-repeat: no-repeat;
   background-position: 32px 32px;
 
-
 }
 
-
-.xizmatlar__smm{
+.xizmatlar__smm {
   background-image: url("../img/smm-illustration.svg");
   background-repeat: no-repeat;
   background-position: 32px 32px;
 
 }
 
-.xizmatlar__design{
+.xizmatlar__design {
   background-image: url("../img/design-illustration.svg");
   background-repeat: no-repeat;
   background-position: 32px 32px;
