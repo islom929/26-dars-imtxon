@@ -155,7 +155,7 @@ img {
 }
 
 .xizmatlar-ul {
-  margin-top: 17px;
+  margin-top: 18px;
   padding-left: 0;
   list-style: none;
   display: none;
@@ -167,6 +167,7 @@ img {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   z-index: 1;
+  background-color: #fff;
 
 }
 
