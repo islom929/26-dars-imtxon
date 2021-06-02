@@ -8,6 +8,7 @@
   --background-color-blue: rgba(0, 186, 252, 1);
   --background-color-blue-active: rgba(0, 186, 252, 1);
   --background-color-dark-active: rgba(25, 25, 25, 1);
+  --font-family:"Open Sans","Arial",sans-serif
 
 }
 
@@ -134,7 +135,7 @@ box-shadow: inset 0 -3px 0 0 black;
 }
 .header-li:active {
   background-color: var(--background-color-dark-active);
-
+box-shadow: none;
   opacity: 0.6;
 
 }
@@ -213,7 +214,7 @@ background-color: var(--background-color-blue);
   border-radius: 5px;
   color: var(--text-color-white);
   text-decoration: none;
-
+transition: 0.3s ease opacity;
 }
 
 
@@ -332,6 +333,7 @@ background-color: var(--background-color-blue);
 .services-ul li {
   width: 320px;
   height: 260px;
+  transition: 0.3s ease box-shadow;
 
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -721,4 +723,145 @@ background-color: var(--background-color-blue);
 }
 
 
+/*    XIZMATLAR     */
 
+.services-h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.xizmatlar__services{
+
+  margin-bottom: 72px;
+
+}
+
+.sm_ul{
+  padding-left: 0;
+  list-style: none;
+margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+background-color: #F4F4F4;
+font-family: var(--font-family);
+
+}
+
+.sm_li:not(:last-child){
+  margin-bottom: 64px;
+  
+}
+
+.info-ul {
+  padding-left: 0;
+  list-style: none;
+
+}
+
+.info-li a{
+  text-decoration: none;
+  color: var(--text-color-black);
+  font-family: var(--font-family);
+
+}
+
+.info-li {
+  padding: 4px;
+
+}
+
+.info-li::before{
+  content: "";
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: var(--background-color-blue);
+  margin-right: 8px;
+}
+
+
+.sm_li {
+
+  width: 802px;
+
+background-color: #fff;
+margin-right: auto;
+margin-left: auto;
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+padding-left: 272px;
+
+
+}
+
+.xizmatlar__website {
+
+  background-image: url("../img/website-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: 32px 32px;
+
+}
+
+.name-of-list {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  padding-top: 32px;
+
+
+}
+
+.sm-p {
+  font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+}
+
+.xizmatlar__link{
+
+}
+
+
+.site-bottom {
+
+  padding-top: 12px;
+padding-bottom: 32px;
+
+}
+
+
+.xizmatlar__bot {
+
+
+  background-image: url("../img/bot-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: 32px 32px;
+
+
+}
+
+
+.xizmatlar__smm{
+  background-image: url("../img/smm-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: 32px 32px;
+
+}
+
+.xizmatlar__design{
+  background-image: url("../img/design-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: 32px 32px;
+
+}
+
+.xizmatlar__crm {
+  background-image: url("../img/crm-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: 32px 32px;
+
+}
