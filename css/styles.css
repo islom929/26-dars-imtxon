@@ -9,6 +9,7 @@
   --background-color-blue-active: rgba(0, 186, 252, 1);
   --background-color-dark-active: rgba(25, 25, 25, 1);
   --font-family: "Open Sans","Arial",sans-serif;
+  --background-color-dark-active1: rgba(25, 25, 25, 0.6);
 }
 
 html {
@@ -129,14 +130,16 @@ img {
   box-shadow: inset 0 -3px 0 0 black;
 }
 .header-li:active {
-  background-color: var(--background-color-dark-active);
+  background-color:var(--background-color-dark-active1);
   box-shadow: none;
-  opacity: 0.6;
 
 }
 
+
+
 .header-li:active .header-ul-a {
   color: #fff;
+
 }
 
 .header-li:focus {
@@ -146,6 +149,7 @@ img {
 .drop-down-xizmatlar {
   position: relative;
   display: inline-block;
+  background-color: #fff;
 
 }
 
@@ -194,12 +198,12 @@ img {
 }
 .xizmatlar:active {
   background-color: var(--background-color-blue-active);
-  opacity: 0.6;
+
 
 }
 
 .xizmatlar:active a {
-
+  opacity: 0.6;
   color: var(--text-color-white);
 }
 
